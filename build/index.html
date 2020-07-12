@@ -29,18 +29,25 @@
 
     <div class="block__auth">
       <ul class="auth__list">
-        <li class="list--item">
-          <p>Arthur Wood</p>
+        <li class="auth__list--item">
+          <p class="auth__name">Arthur Wood</p>
         </li>
-        <li class="auth__list--item"><a><img
+        <li class="auth__list--item">
+          <img class="auth__icon" src="./images/avatar.png" />
+        </li>
+        <li class="auth__list--item"><a><img class="auth__list--icon"
               src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png" /></a>
         </li>
-        <li class="auth__list--item"><a><img src="https://img.icons8.com/carbon-copy/100/000000/bell.png" /></a></li>
-        <li class="auth__list--item"><a><img src="https://img.icons8.com/material-outlined/24/000000/gift.png" /></a>
+        <li class="auth__list--item"><a><img class="auth__list--icon"
+              src="https://img.icons8.com/carbon-copy/100/000000/bell.png" /></a></li>
+        <li class="auth__list--item"><a><img class="auth__list--icon"
+              src="https://img.icons8.com/material-outlined/24/000000/gift.png" /></a>
         </li>
-        <li class="auth__list--item"><a><img src="https://img.icons8.com/ios/50/000000/m.png" /></a></li>
+        <li class="auth__list--item"><a><img class="auth__list--icon"
+              src="https://img.icons8.com/ios/50/000000/m.png" /></a></li>
       </ul>
     </div>
+
 
     <nav class="block__nav"></nav>
     <ul class="nav__list">
@@ -49,63 +56,81 @@
       <li class="nav__list--item"><a href="#" class="nav--link">DISCUSSIONS</a></li>
     </ul>
     </nav>
-    <button class="header_button">+</button>
+    <button class="header_button"></button>
   </header>
 
   <main>
     <section class="container">
+      <div class="main__block">
+        <div class="block__autor">
+          <figure class="block__autor--figure">
+            <img class="block__autor--avatar" src="./images/avatar.png" />
+            <figcaption>
+              <h2 class="block__autor--text">Benjamin Clementine</h2>
+              <span class="block__autor--info">@benclementine</span>
+              <p class="block__autor--edit"><img src="https://img.icons8.com/cotton/24/000000/edit--v2.png" />Edit
+                Profile
+              </p>
+            </figcaption>
+          </figure>
 
-      <div class="block__autor">
-        <img src="./images/avatar.png" />
-        <h2 class="block__autor--text">Benjamin Clementine</h2>
-        <span class="block__autor--info">@benclementine</span>
-        <p><img src="https://img.icons8.com/cotton/24/000000/edit--v2.png" />Edit Profile</p>
-        <span><img src="https://img.icons8.com/material-outlined/24/000000/menu-2.png" /></span>
-        <p class="block__autor--statistic">45 synths</p>
-        <p class="block__autor--statistic">110 followers</p>
-        <p class="block__autor--statistic">322 following</p>
-        <p class="block__autor--discription">Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged
-          between 20 to 30 percent each,
-          according to CoinMarketCap. Here is the latest Ripple price news and live updates on XRP, bitcoin and
-          Ethereum.</p>
-      </div>
+          <ul class="block__autor--statList">
+            <p class="block__autor--statistic">45 synths</p>
+            <p class="block__autor--statistic">110 followers</p>
+            <p class="block__autor--statistic">322 following</p>
+          </ul>
+          <p class="block__autor--discription">Cryptocurrencies including Ethereum, Ripple, and Litecoin have all
+            plunged
+            between 20 to 30 percent each,
+            according to CoinMarketCap. Here is the latest Ripple price news and live updates on XRP, bitcoin and
+            Ethereum.</p>
+        </div>
 
-      <div class="block__switch">
-        <span class="switch__text">Public</span>
-        <button class="switch-btn switch-on"></button>
-        <span class="switch__text">Private</span>
-      </div>
+        <div class="block__card">
 
-      <div class="block__card">
-        <ul class="card__list">
-          <li class="card__item">
-            <p class="card__discription">New air routes that promise cheap flights in</p>
-            <p class="card__autor"><img
-                src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
-            <button class="card__button">Share</button>
-          </li>
+          <span class="block__card--menu"><img src="https://img.icons8.com/material-outlined/24/000000/menu-2.png" />
+            <!-- <a href="#">Report User</a>
+            <a href="#">Block User</a> -->
+          </span>
 
-          <li class="card__item">
-            <p class="card__discription">New air routes that promise cheap flights in</p>
-            <p class="card__autor"><img
-                src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
-            <button class="card__button">Share</button>
-          </li>
-          <li class="card__item">
-            <p class="card__discription">New air routes that promise cheap flights in</p>
-            <p class="card__autor"><img
-                src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
-            <a><img src="https://img.icons8.com/material-sharp/24/000000/google-play.png" />88</a>
-            <a><img src="https://img.icons8.com/color/24/000000/filled-like.png" />24</a>
-          </li>
-          <li class="card__item">
-            <p class="card__discription">New air routes that promise cheap flights in</p>
-            <p class="card__autor"><img
-                src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
-            <a><img src="https://img.icons8.com/material-sharp/24/000000/google-play.png" />88</a>
-            <a><img src="https://img.icons8.com/color/24/000000/filled-like.png" />24</a>
-          </li>
-        </ul>
+          <span class="switch__text">Public</span>
+          <button class="switch-btn switch-on"></button>
+          <span class="switch__text">Private</span>
+
+          <ul class="card__list">
+            <li class="card__item">
+              <p class="card__discription">New air routes that promise cheap flights in</p>
+              <p class="card__autor"><img
+                  src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
+              <button class="card__button">Share</button>
+            </li>
+
+            <li class="card__item">
+              <p class="card__discription">New air routes that promise cheap flights in</p>
+              <p class="card__autor"><img
+                  src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
+              <button class="card__button">Share</button>
+            </li>
+            <li class="card__item">
+              <p class="card__shared--info">Shared to <span
+                  class="card__shared--span">#discussionaboutanimgttdds…</span>
+              </p>
+              <p class="card__discription">New air routes that promise cheap flights in</p>
+              <p class="card__autor"><img
+                  src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
+              <a><img src="https://img.icons8.com/material-sharp/24/000000/google-play.png" />88</a>
+              <a><img src="https://img.icons8.com/color/24/000000/filled-like.png" />24</a>
+            </li>
+            <li class="card__item">
+              <p class="card__shared--info">Shared via weblink</p>
+              <p class="card__discription">New air routes that promise cheap flights in</p>
+              <p class="card__autor"><img
+                  src="https://img.icons8.com/material-two-tone/24/000000/filled-circle.png" />Gregory Watkins</p>
+              <a><img src="https://img.icons8.com/material-sharp/24/000000/google-play.png" />88</a>
+              <a><img src="https://img.icons8.com/color/24/000000/filled-like.png" />24</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 

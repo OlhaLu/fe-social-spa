@@ -1,9 +1,13 @@
 .header {
-    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.06);
+    margin: 25px auto;
+    // height: 112px;
 }
 
 .site__logo {
-
+    background: #3E4056;
+    font-size: 13px;
 }
 
 .logo__text {
@@ -15,25 +19,118 @@
 }
 
 .auth__list {
+    
+    display: flex;
+   
+}
 
+.auth__name {
+left: 2.82%;
+right: 45.2%;
+top: calc(50% - 20px/2);
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.5px;
+color: #3E3F58;
+}
+
+.auth__icon {
+    width: 32px;
+    height: 32px;
 }
 
 .auth__list--item {
+    list-style-type: none;
+  
+}
 
+.auth__list--icon {
+    height: 17px;
 }
 
 .block__nav {
-
+  
 }
 
 .nav__list {
-
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 35px;
 }
 
 .nav__list--item {
-
+    list-style-type: none;
+   
 }
 
-.header_button {
+.nav--link {
+    font-size: 15px;
+    text-decoration: none;
+}
 
+.nav--link::after {
+  display: block;
+  content: "";
+  height: 3px;
+  background-color:   #E32C75;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+
+.nav--link:hover::after {
+    transform: scaleX(1);
+    }
+
+
+.header_button {
+    background: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px 0px rgba(204,198,197,.5), inset 0px 4px 1px 1px white, rgba(204,198,197,.5);
+    float: right;
+    height: 70px;
+    margin: 0 30px 30px 0;
+    position: relative;
+    width: 70px;			
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.header_button::after {
+    color:#e9e6e4;
+    content: "+";
+    display: block;
+    font-size: 34px;
+    height: 30px;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+    position: absolute;
+    width: 30px;
+    left: 18px;
+	top: 15px;
+}
+
+.header_button:hover {
+    background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+	background-image: linear-gradient(top, #fff, #f4f1ee);
+	color:#0088cc;
+}
+
+.header_button:hover:after {
+	color:#0088cc;
+	text-shadow:0px 0px 6px #f99e4e;
+}
+
+.header_button:active{
+    background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+    background-image: linear-gradient(top, #efedec, #f7f4f4);
+    box-shadow: 0 3px 5px 0 rgba(204,198,197,.5), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+}
+
+.header_button:active:after{
+    color:#dbd2d2;
+    text-shadow: 0px -1px 1px #bdb5b4, 0px 1px 1px white;
 }

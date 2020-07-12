@@ -10,6 +10,11 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 1440px;
   padding: 0 15px;
+  background: #F2F2F2;
+}
+
+.main__block {
+  display: flex;
 }

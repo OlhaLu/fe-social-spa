@@ -1,23 +1,72 @@
 .block__card {
+}
 
+.block__card--menu {
 }
 
 .card__list {
-
+  list-style-type: none;
+  column-count: 2;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card__item {
-
+  width: 375px;
+  height: 280px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 14px 28px#cbd2d6, 0 10px 10px #cbd2d6;
+  margin: 20px;
 }
 
 .card__discription {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #3E4056;
+}
 
+.card__shared--info {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #3E4056;
+}
+
+.card__shared--span {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+background: #bdbfda;
+color: #262627;
 }
 
 .card__autor {
-
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E4056;
 }
 
 .card__button {
-
-}
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #F05D63;
+  
