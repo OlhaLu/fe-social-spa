@@ -1,0 +1,106 @@
+@media screen and (max-width: 767px) {
+    .container {
+    width: 320px;
+}
+
+.site__logo {
+    margin-right: 15px;
+}
+
+.main__block {
+    display: block;
+}
+
+.nav__list {
+    display: inline-block;
+    width: 30px;
+}
+    
+
+.autor--avatar {
+    width: 80px;
+    height: 80px;
+}
+
+.card__discription {
+    padding: 10px;
+    font-size: 20px;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+ .container {
+    width: 660px;
+}
+
+.block__auth {
+    margin: 10px 0;
+}
+
+.block__auth {
+    margin: 5px 0;
+}
+
+.nav__list {
+    width: 50px;
+}
+
+.block__autor {
+    width: 250px;
+}
+
+.autor--avatar {
+    width: 120px;
+}
+    
+.card__discription {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.card__item {
+    width: 280px;
+    height: 250px;
+}
+    
+.card__shared--info {
+    font-size: 12px;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+.container {
+    width: 1440px;
+}
+
+.block__auth {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.nav__list {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__autor {
+    width: 500px;
+}
+
+.card__item {
+    width: 375px;
+    height: 290px;
+}
+    
+.card__discription {
+    padding: 20px;
+    font-size: 36px;
+}
+        
+.card__shared--info {
+    font-size: 16px;
+}
+}
