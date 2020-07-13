@@ -5,15 +5,16 @@
   
 }
 
-.block__autor--avatar {
+.autor--avatar {
     width: 120px;
+    margin: 0 30px 0 0;
 }
 
-.block__autor--figure {
+.autor--figure {
     display: flex;
 }
 
-.block__autor--text {
+.autor--text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -22,7 +23,7 @@
     color: #3E3F58;
 }
 
-.block__autor--info {
+.autor--info {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -32,7 +33,7 @@
     color: #3E3F58;
 }
 
-.block__autor--edit {
+.autor--edit {
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -42,12 +43,13 @@ text-decoration-line: underline;
 color: #F05D63;
 }
 
-.block__autor--statList {
+.autor--statList {
     display: flex;
     margin: 15px 0;
 }
 
-.block__autor--statistic {
+.autor--statistic {
+    list-style-type: none;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -57,11 +59,11 @@ color: #F05D63;
     color: #3E3F58;
 }
 
-.block__autor--statistic::first-line {
+.autor--statistic::first-line {
     font-weight: bold;
 }
 
-.block__autor--discription {
+.autor--discription {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;

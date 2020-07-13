@@ -1,4 +1,5 @@
 .switch__text {
+  margin: 0 20px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -9,8 +10,8 @@
 
 .switch-btn {
     display: inline-block;
-    width: 68px; /* ширина */
-    height: 28px; /* высота */
+    width: 66px; /* ширина */
+    height: 24px; /* высота */
     border-radius: 19px; /* радиус скругления */
     background:#fff;
     z-index: 0;
@@ -23,8 +24,8 @@
   }
   .switch-btn::after {
     content: '';
-    height: 26px; /* высота кнопки */
-    width: 26px; /* ширина кнопки */
+    height: 22px; /* высота кнопки */
+    width: 22px; /* ширина кнопки */
     border-radius: 18px;
     background: #fff; /* цвет кнопки */
     top: 1px; /* положение кнопки по вертикали относительно основы */
