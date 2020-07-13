@@ -1,27 +1,30 @@
 .header {
     background: #FFFFFF;
     box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.06);
-    margin: 25px auto;
-    // height: 112px;
+    margin: 20px auto;
+    height: 112px;
+   
 }
 
 .site__logo {
-    background: #3E4056;
-    font-size: 13px;
+
 }
 
 .logo__text {
-
+color: #3E4056;
+font-size: 26px;
 }
 
 .block__auth {
-
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .auth__list {
-    
     display: flex;
-   
+    
 }
 
 .auth__name {
@@ -38,17 +41,19 @@ color: #3E3F58;
 }
 
 .auth__icon {
-    width: 32px;
-    height: 32px;
+width: 36px;
+height: 36px;
 }
 
 .auth__list--item {
     list-style-type: none;
+    margin-right: 10px;
   
 }
 
 .auth__list--icon {
-    height: 17px;
+    width: 16px;
+    height: 14px
 }
 
 .block__nav {
@@ -59,7 +64,6 @@ color: #3E3F58;
     display: flex;
     justify-content: space-between;
     width: 250px;
-    height: 35px;
 }
 
 .nav__list--item {
@@ -84,7 +88,6 @@ color: #3E3F58;
 .nav--link:hover::after {
     transform: scaleX(1);
     }
-
 
 .header_button {
     background: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
