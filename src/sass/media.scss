@@ -22,9 +22,20 @@
     height: 80px;
 }
 
+.autor--text {
+    font-size: 18px;
+}
+
+.autor--statistic {
+    font-size: 14px;
+}
+
 .card__discription {
-    padding: 10px;
     font-size: 20px;
+}
+
+.card__autor--name {
+    font-size: 12px;
 }
 }
 
@@ -53,9 +64,16 @@
 .autor--avatar {
     width: 120px;
 }
+
+.autor--text {
+    font-size: 20px;
+}
+
+.autor--statistic {
+    font-size: 16px;
+}
     
 .card__discription {
-    padding: 10px;
     font-size: 26px;
 }
 
@@ -66,6 +84,10 @@
     
 .card__shared--info {
     font-size: 12px;
+}
+
+.card__autor--name {
+    font-size: 14px;
 }
 }
 
@@ -89,6 +111,11 @@
 .block__autor {
     width: 500px;
 }
+
+.autor--text {
+    font-size: 24px;
+}
+
 
 .card__item {
     width: 375px;
