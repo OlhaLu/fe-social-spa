@@ -15,32 +15,32 @@
 }
 
 .autor--text {
-    font-family: Montserrat;
+    font-family: $montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 26px;
-    color: #3E3F58;
+    color: $text-color;
 }
 
 .autor--info {
-    font-family: Open Sans;
+    font-family: $open-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.5px;
-    color: #3E3F58;
+    color: $text-color;
 }
 
 .autor--edit {
-font-family: Open Sans;
+font-family: $open-sans;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 20px;
 text-decoration-line: underline;
-color: #F05D63;
+color: $autor-edit;
 }
 
 .autor--statList {
@@ -50,13 +50,13 @@ color: #F05D63;
 
 .autor--statistic {
     list-style-type: none;
-    font-family: Open Sans;
+    font-family:$open-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-    color: #3E3F58;
+    color: $text-color;
 }
 
 .autor--statistic::first-line {
@@ -64,11 +64,11 @@ color: #F05D63;
 }
 
 .autor--discription {
-    font-family: Open Sans;
+    font-family: $open-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #3E3F58;
+    color: $text-color;
     text-align: justify;
 }

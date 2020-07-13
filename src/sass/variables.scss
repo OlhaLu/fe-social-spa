@@ -1,16 +1,20 @@
 
-$text-white-color: #ffffff;
-$overlay-color: #f38181;
-$social-color: #fce38a;
-$hidden-color: #eaffd0;
-$icon-color: #95e1d3;
-$text-color: #bfbfbf;
-$title-color:  #333333;
+$main-bg-color: #F2F2F2;
+$header-bg-color: #FFFFFF;
+$logo-color: #3E4056;
+$header-main-color:  #E32C75;
+$text-color:  #3E3F58;
+$card-text-color: #3E4056;
+$autor-edit: #F05D63;
+$edit-text-color: #F05D63;
+$switch-btn-color: #ED5267;
+$card-shared-bg: #9a9cbb;
+$card-shared-text-color: #444446;
 
 
 @import '../sass/fonts.scss';
 
-$nav-title-font: 'Montserrat-Regular', sans-serif;
-$banner-text: 'Montserrat-Bold', sans-serif;
-
-
+$montserrat: 'Montserrat-Regular', sans-serif;
+$montserrat-bold: 'Montserrat-Bold', sans-serif;
+$open-sans: 'OpenSans', sans-serif;
+$open-sans-bold: 'OpenSans-Bold', sans-serif;

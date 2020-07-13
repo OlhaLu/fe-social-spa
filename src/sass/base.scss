@@ -5,14 +5,13 @@
 }
 
 body {
-  // font-family: 
 }
 
 .container {
   margin: 0 auto;
   width: 1440px;
   padding: 0 15px;
-  background: #F2F2F2;
+  background: $main-bg-color;
 }
 
 .main__block {

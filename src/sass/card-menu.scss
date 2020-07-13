@@ -12,10 +12,6 @@
     display: block;
     color: #222;
   }
-
-  .card__menuList {
-
-  }
   
   .card__menuList > li {
     display: inline-block;
@@ -25,10 +21,11 @@
   .card__menuList > li > a {
     position: relative;
     padding: 10px 15px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: $open-sans;
     font-size: 1.5em;
     line-height: 1;
     letter-spacing: 3px;
+    color: $card-text-color;
   }
   
   .card__menuList > li > a:before {
@@ -74,23 +71,23 @@
     transform: translate(-50%, 0);
   }
   .card__menu--submenu a {
-    font-family: 'Libre Baskerville', serif;
+    font-family: $open-sans;
     font-size: 11px;
     letter-spacing: 1px;
     padding: 5px 10px;
     transition: .3s linear;
+    color: $card-text-color;
   }
   .card__menu--submenu a:hover {
     background: #e8e8e8;
 }
 .card__submenu--item {
-font-family: Open Sans;
+font-family: $open-sans;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
-
-color: #3E4056;
+color: $card-text-color;
 }
 
 .card__submenu--icon {

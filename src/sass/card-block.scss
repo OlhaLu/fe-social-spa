@@ -23,32 +23,32 @@
 
 .card__discription {
     padding: 20px;
-    font-family: Montserrat;
+    font-family: $montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 44px;
-    color: #3E4056;
+    color: $card-text-color;
     margin: 10px 0;
 }
 
 .card__shared--info {
-font-family: Open Sans;
+font-family: $open-sans;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
-color: #3E4056;
+color: $card-text-color;
 }
 
 .card__shared--span {
-font-family: Open Sans;
+font-family: $open-sans;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 16px;
-background: #bdbfda;
-color: #262627;
+background: $card-shared-bg;
+color: $card-shared-text-color;
 }
 
 .card__autor {
@@ -62,21 +62,21 @@ color: #262627;
 }
 
 .card__autor--name {
-  font-family: Open Sans;
+  font-family: $open-sans;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
-  color: #3E4056;
+  color:$card-text-color;
   margin-right: 100px;
 }
 
 .card__span {
-    font-family: Open Sans;
+    font-family:$open-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-align: right;
-    color: #F05D63;
+    color: $edit-text-color;
 }
